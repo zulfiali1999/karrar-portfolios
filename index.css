@@ -564,11 +564,35 @@ body {
         margin: 20px;
     }
 
+    .experience .img-one {
+        display: flex;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .experience .img-one img {
+        display: flex;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+
     .experience p {
         font-size: 3vw;
         padding: 20px;
     }
 
+}
+
+@media screen and (max-width: 300px) {
+
+    .experience .img-one img {
+        display: flex;
+        margin: auto;
+        width: 100px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
